@@ -19,7 +19,10 @@ elif idade <= 14 and idade < 19:
 elif idade <= 19:
     categoria = 'JUNIOR'
 
-elif idade >= 20:
+elif idade <= 20:
     categoria = 'SÊNIOR'
+    
+elif idade > 20:
+    categoria = 'MASTER'    
 
 print(f'Sua categoria é: {categoria}')
